@@ -11,7 +11,7 @@ export default function Header() {
         display="inline"
         width="70px"
       >
-        <Image src="/img/pinkypink.svg" alt="Pinky Pink" boxSize="70px" />
+        <Image src="img/pinkypink.svg" alt="Pinky Pink" boxSize="70px" />
       </Link>
       {/* <Text fontSize="xl">Pinky Pink</Text> */}
       <Text fontSize="xs" px={5}>
