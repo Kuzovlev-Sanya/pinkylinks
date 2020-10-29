@@ -1,7 +1,7 @@
 {
   "name": "react",
   "version": "1.0.0",
-  "description": "React example starter project",
+  "description": "Pinky Links",
   "keywords": [
     "react",
     "starter"
@@ -16,7 +16,8 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-icons": "3.11.0",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "uuid": "8.3.1"
   },
   "devDependencies": {
     "typescript": "3.8.3"

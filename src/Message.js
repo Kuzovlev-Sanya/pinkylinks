@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { Box, Link } from "@chakra-ui/core";
 import Heart from "./Heart";
+import { v4 } from "uuid";
 
 export default function Message() {
   const [hearts, setHearts] = useState([]);
 
   const addHeart = () => {
     const newHeart = {
-      id: Math.random().toString(),
+      id: v4(),
       x: Math.floor(Math.random() * 130) - 50,
       y: Math.floor(Math.random() * -90) - 40,
       scale: Math.floor(Math.random() * 0.7) + 1.4,
@@ -17,10 +18,12 @@ export default function Message() {
     setHearts(newHearts);
   };
   useEffect(() => {
-    const interval = setInterval(() => {
-      addHeart();
-    }, 500);
-    return () => clearInterval(interval);
+    if (hearts.length < 12) {
+      const interval = setInterval(() => {
+        addHeart();
+      }, 500);
+      return () => clearInterval(interval);
+    }
   });
   function removeHeart(heartId) {
     const updateHeart = hearts.filter((heart) => {

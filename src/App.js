@@ -10,6 +10,7 @@ const start = {
   title: "С чего начать",
   text:
     "Я советую начинать с бесплатного курса «Обложка для паспорта из набора». В наборе есть все необходимые материалы.",
+  magic: "бесплатного",
   butText: "Обложка для паспорта",
   butUrl:
     "https://pinkypink.ru/course/komplekt-materialov-i-videokurs-po-oblozhke-na-pasport/",
@@ -34,7 +35,7 @@ export default function App() {
     <ChakraProvider theme={pinkyPink}>
       <Box w="100%" p={3} pb={6}>
         <Header />
-        <Cart content={start} />
+        <Cart {...start} />
         <Box>
           <Text px="0" fontSize="xs" px={5}>
             Наборы к другим курсам ищите{" "}
@@ -52,9 +53,9 @@ export default function App() {
             </Link>
           </Text>
         </Box>
-        <Cart content={courses} />
+        <Cart {...courses} />
         <Message />
-        <Cart content={blog} />
+        <Cart {...blog} />
         <Footer />
       </Box>
     </ChakraProvider>

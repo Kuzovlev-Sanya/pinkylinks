@@ -1,5 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import { Icon } from "@chakra-ui/core";
 
 const HeartIcon = motion.custom(Icon);
