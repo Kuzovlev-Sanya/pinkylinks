@@ -11,7 +11,7 @@ const start = {
   text:
     "Я советую начинать с бесплатного курса «Обложка для паспорта из набора». В наборе есть все необходимые материалы.",
   magic: "бесплатного",
-  butText: "Обложка для паспорта",
+  butText: "Посмотреть курс",
   butUrl:
     "https://pinkypink.ru/course/komplekt-materialov-i-videokurs-po-oblozhke-na-pasport/",
 };
@@ -19,14 +19,14 @@ const courses = {
   title: "Онлайн курсы",
   text:
     "Сейчас в каталоге 15 бесплатных и 19 платных курсов на разные темы и разного уровня сложности.",
-  butText: "Каталог курсов",
+  butText: "Открыть каталог",
   butUrl: "https://pinkypink.ru/course/",
 };
 const blog = {
   title: "Полезные материалы",
   text:
     "У нас на сайте есть журнал в котором я делюсь опытом, публикую материалы и рассказываю о новостях.",
-  butText: "Журнал",
+  butText: "Полистать журнал",
   butUrl: "https://pinkypink.ru/zhurnal/",
 };
 

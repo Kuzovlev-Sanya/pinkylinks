@@ -6,7 +6,7 @@ import {
   Button,
   ButtonGroup,
   Box,
-  Text
+  Text,
 } from "@chakra-ui/core";
 import { FiGlobe, FiYoutube } from "react-icons/fi";
 
@@ -19,7 +19,7 @@ export default function Footer() {
             as="a"
             target="_blank"
             borderBottom="none"
-            bgColor="#EB3223"
+            bgColor="#f74f41"
             color="pink.100"
             w="50%"
             href="https://www.youtube.com/user/scraplandiya"
@@ -36,7 +36,7 @@ export default function Footer() {
             w="50%"
             target="_blank"
             borderBottom="none"
-            bgColor="blue.700"
+            bgColor="#4673d5"
             color="pink.100"
             href="https://pinky.school/"
             mt="3"
@@ -59,7 +59,7 @@ export default function Footer() {
             _hover={{
               textDecoration: "none",
               color: "blue.900",
-              borderColor: "blue.500"
+              borderColor: "blue.500",
             }}
             href="mailto:store@pinkypink.ru"
           >
