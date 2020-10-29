@@ -36,11 +36,11 @@ export default function App() {
         <Header />
         <Cart content={start} />
         <Box>
-          <Text px="0" fontSize="xs">
+          <Text px="0" fontSize="xs" px={5}>
             Наборы к другим курсам ищите{" "}
             <Link
-              color="blue.700"
-              borderColor="blue.200"
+              color="pink.900"
+              borderColor="pink.400"
               _hover={{
                 textDecoration: "none",
                 color: "blue.700",

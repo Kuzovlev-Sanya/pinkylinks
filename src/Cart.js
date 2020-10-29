@@ -17,7 +17,7 @@ export default function Cart(props) {
           <Heading fontSize="lg">{props.content.title}</Heading>
           <Spacer />
         </Flex>
-        <Text>{props.content.text}</Text>
+        <Text dangerouslySetInnerHTML={{ __html: props.content.text }} />
         <Button
           as="a"
           target="_blank"

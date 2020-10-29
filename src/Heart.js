@@ -4,23 +4,23 @@ import { Icon } from "@chakra-ui/core";
 
 const HeartIcon = motion.custom(Icon);
 
-export default function Heart(props) {
-  const el = (
+export default function Heart({ id, x, y, scale, rotate, onAnimationEnd }) {
+  return (
     <HeartIcon
-      onAnimationComplete={() => props.onAnimationEnd(props.id)}
-      id={props.id}
+      onAnimationComplete={() => onAnimationEnd(id)}
+      id={id}
       position="absolute"
       initial={{ opacity: 0, x: 2, y: 17 }}
       animate={{
         opacity: 1,
-        x: props.x,
-        y: props.y,
-        scale: props.scale,
-        rotate: props.rotate,
+        x,
+        y,
+        scale,
+        rotate,
       }}
       transition={{ duration: 7, ease: [0.17, 0.67, 0.83, 0.67] }}
       viewBox="0 0 17 14"
-      color="red.500"
+      color="pink.900"
     >
       <path
         fill="currentColor"
@@ -28,5 +28,4 @@ export default function Heart(props) {
       />
     </HeartIcon>
   );
-  return el;
 }

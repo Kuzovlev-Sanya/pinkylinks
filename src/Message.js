@@ -3,20 +3,13 @@ import { Box, Link } from "@chakra-ui/core";
 import Heart from "./Heart";
 
 export default function Message() {
-  const [hearts, setHearts] = useState([
-    {
-      id: Math.random().toString(),
-      x: Math.floor(Math.random() * 150) + 1,
-      y: Math.floor(Math.random() * -150) - 50,
-      scale: Math.floor(Math.random() * 0.7) + 1.4,
-      rotate: Math.floor(Math.random() * 10) + 5,
-    },
-  ]);
+  const [hearts, setHearts] = useState([]);
+
   const addHeart = () => {
     const newHeart = {
       id: Math.random().toString(),
-      x: Math.floor(Math.random() * 150) - 50,
-      y: Math.floor(Math.random() * -100) - 50,
+      x: Math.floor(Math.random() * 130) - 50,
+      y: Math.floor(Math.random() * -90) - 40,
       scale: Math.floor(Math.random() * 0.7) + 1.4,
       rotate: Math.floor(Math.random() * 10) + 5,
     };
@@ -29,9 +22,9 @@ export default function Message() {
     }, 500);
     return () => clearInterval(interval);
   });
-  function removeHeartOnAnimationEnd(heartId) {
+  function removeHeart(heartId) {
     const updateHeart = hearts.filter((heart) => {
-      return heart.id != heartId;
+      return heart.id !== heartId;
     });
     setHearts(updateHeart);
   }
@@ -41,8 +34,8 @@ export default function Message() {
       <Box fontSize="3xl" lineHeight="1.2" display="inline">
         За 10 лет курсы Pinky Pink прошли 12 000 учеников, почитайте{" "}
         <Link
-          color="blue.700"
-          borderColor="blue.300"
+          color="pink.900"
+          borderColor="pink.400"
           _hover={{
             textDecoration: "none",
             color: "blue.900",
@@ -62,7 +55,7 @@ export default function Message() {
             y={heart.y}
             scale={heart.scale}
             rotate={heart.rotate}
-            onAnimationEnd={removeHeartOnAnimationEnd}
+            onAnimationEnd={removeHeart}
           />
         ))}
       </Box>
