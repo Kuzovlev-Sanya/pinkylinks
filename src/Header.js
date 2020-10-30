@@ -8,8 +8,7 @@ export default function Header() {
         href="http://pinkypink.ru"
         target="_blank"
         borderBottom="0px"
-        display="inline"
-        width="70px"
+        // width="70px"
       >
         <Image src="img/pinkypink.svg" alt="Pinky Pink" boxSize="70px" />
       </Link>
