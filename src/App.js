@@ -10,8 +10,7 @@ import Promo from "./Promo";
 const promo = {
   title: "Время Декабрьского Дневника",
   img: "https://pinkypink.ru/wp-content/uploads/2020/11/IMG_1439-1024x1024.jpg",
-  url:
-    "https://pinkypink.ru/course/kak-sdelat-korobochku-zapis-pryamogo-efira-ot-1-maya-2020-goda/",
+  url: "https://pinkypink.ru/course/dekabrskiiy-dnevnik-2020/",
   butText: "Посмотреть курс",
 };
 
