@@ -14,7 +14,7 @@ export default function Cart({ title, text, butUrl, butText, magic }) {
       borderWidth="1px"
       bgColor="pink.50"
       borderColor="whiteAlpha.600"
-      borderRadius="md"
+      borderRadius="8px"
       overflow="hidden"
     >
       <Box p={4} position="relative">
