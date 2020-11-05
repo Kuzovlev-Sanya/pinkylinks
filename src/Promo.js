@@ -9,7 +9,7 @@ export default function Promo({ title, img, url, butText }) {
   return (
     <>
       <MagicBox mb="2" mt="4" borderRadius="8px">
-        <Image src={promoImg} borderRadius="6px" />
+        <Image src={promoImg} alt={title} borderRadius="6px" />
         <Box p={4}>
           <Heading fontSize="lg">{title}</Heading>
           <Box>
