@@ -5,11 +5,10 @@ import { motion, useCycle } from "framer-motion";
 const MagicBox = motion.custom(Box);
 
 export default function Promo({ title, img, url, butText }) {
-  const promoImg = img;
   return (
     <>
       <MagicBox mb="2" mt="4" borderRadius="8px">
-        <Image src={promoImg} alt={title} borderRadius="6px" />
+        <Image src={`${img}`} alt={title} borderRadius="6px" />
         <Box p={4}>
           <Heading fontSize="lg">{title}</Heading>
           <Box>
