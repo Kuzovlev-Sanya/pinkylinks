@@ -1,15 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import { Image, Box, Link, Heading, Button } from "@chakra-ui/core";
-import { motion, useCycle } from "framer-motion";
-
-const MagicBox = motion.custom(Box);
 
 export default function Promo({ title, img, url, butText }) {
-  const [promoImg, setPromoImg] = useState(img);
   return (
     <>
-      <MagicBox mb="2" mt="4" borderRadius="8px">
-        <Image src={promoImg} borderRadius="6px" />
+      <Box mb="2" mt="4" borderRadius="8px">
+        <Image src={img} borderRadius="6px" />
         <Box p={4}>
           <Heading fontSize="lg">{title}</Heading>
           <Box>
@@ -31,7 +27,7 @@ export default function Promo({ title, img, url, butText }) {
             Приобрести курс за 990 руб.
           </Button>
         </Box>
-      </MagicBox>
+      </Box>
     </>
   );
 }
