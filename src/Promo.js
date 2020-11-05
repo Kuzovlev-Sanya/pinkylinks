@@ -39,7 +39,7 @@ export default function Promo({ title, img, url, butText }) {
             colorScheme="pink"
             size="md"
           >
-            <del>990 руб.</del>&nbsp;490 руб. Приобрести курс
+            Приобрести курс за 990 руб.
           </Button>
         </Box>
       </MagicBox>
