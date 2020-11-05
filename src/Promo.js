@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Image, Box, Link, Heading, Button } from "@chakra-ui/core";
 
 export default function Promo({ title, img, url, butText }) {
+  const [promoImg, setPromoImg] = useState(img);
+  useEffect(() => {
+    setPromoImg(img);
+  }, []);
   return (
     <>
       <Box mb="2" mt="4" borderRadius="8px">
-        <Image src={img} borderRadius="6px" />
+        <Image src={promoImg} borderRadius="6px" />
         <Box p={4}>
           <Heading fontSize="lg">{title}</Heading>
           <Box>
