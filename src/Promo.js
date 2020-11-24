@@ -24,7 +24,7 @@ export default function Promo({ title, img, url, butText }) {
             colorScheme="pink"
             size="md"
           >
-            Приобрести курс за 990 руб.
+            Приобрести курс за 1490 руб.
           </Button>
         </Box>
       </Box>
