@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.js": "./static/js/main.56071a39.chunk.js",
-    "main.js.map": "./static/js/main.56071a39.chunk.js.map",
+    "main.js": "./static/js/main.94c5af6e.chunk.js",
+    "main.js.map": "./static/js/main.94c5af6e.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.8f28b43c.js",
     "runtime-main.js.map": "./static/js/runtime-main.8f28b43c.js.map",
     "static/js/2.927d8170.chunk.js": "./static/js/2.927d8170.chunk.js",
     "static/js/2.927d8170.chunk.js.map": "./static/js/2.927d8170.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.962fa111ae9305da1a512b6fb765d09f.js": "./precache-manifest.962fa111ae9305da1a512b6fb765d09f.js",
+    "precache-manifest.992fecd88ccc84c5f2fee2fbf97d7213.js": "./precache-manifest.992fecd88ccc84c5f2fee2fbf97d7213.js",
     "service-worker.js": "./service-worker.js",
     "static/js/2.927d8170.chunk.js.LICENSE.txt": "./static/js/2.927d8170.chunk.js.LICENSE.txt",
-    "static/media/dd2020.jpg": "./static/media/dd2020.c57af524.jpg",
+    "static/media/new_year_sale.jpg": "./static/media/new_year_sale.6b54fab7.jpg",
     "static/media/pinkypink.png": "./static/media/pinkypink.93d50891.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8f28b43c.js",
     "static/js/2.927d8170.chunk.js",
-    "static/js/main.56071a39.chunk.js"
+    "static/js/main.94c5af6e.chunk.js"
   ]
 }

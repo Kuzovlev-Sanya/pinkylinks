@@ -8,9 +8,9 @@ import Message from "./Message";
 import Promo from "./Promo";
 
 const promo = {
-  title: "Время Декабрьского Дневника",
-  img: "https://pinkypink.ru/wp-content/uploads/2020/11/IMG_1439-1024x1024.jpg",
-  url: "https://pinkypink.ru/course/dekabrskiiy-dnevnik-2020/",
+  title: "Скидка 50%",
+  // img: "https://pinkypink.ru/wp-content/uploads/2020/11/IMG_1439-1024x1024.jpg",
+  url: "https://pinkypink.ru/course/",
   butText: "Посмотреть курс",
 };
 
