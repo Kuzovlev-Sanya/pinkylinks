@@ -61,7 +61,7 @@ export default function App() {
             </Link>
           </Text>
         </Box>
-        <Promo {...promo} />
+        {/* <Promo {...promo} /> */}
 
         <Cart {...courses} />
         <Message />
