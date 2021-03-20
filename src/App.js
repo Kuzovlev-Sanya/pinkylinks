@@ -8,10 +8,9 @@ import Message from "./Message";
 import Promo from "./Promo";
 
 const promo = {
-  title: "Скидка 50%",
-  // img: "https://pinkypink.ru/wp-content/uploads/2020/11/IMG_1439-1024x1024.jpg",
-  url: "https://pinkypink.ru/course/",
-  butText: "Посмотреть курс",
+  title: "Предзаказ курса «Скетчбук и светящийся шейкер»",
+  url: "https://pinkypink.ru/course/sketchbuk-i-svetyaschiiysya-sheiyker/",
+  butText: "Купить курс",
 };
 
 const start = {
@@ -61,7 +60,7 @@ export default function App() {
             </Link>
           </Text>
         </Box>
-        {/* <Promo {...promo} /> */}
+        <Promo {...promo} />
 
         <Cart {...courses} />
         <Message />

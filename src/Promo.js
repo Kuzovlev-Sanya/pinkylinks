@@ -1,6 +1,6 @@
 import React from "react";
 import { Image, Box, Img, Link, Heading, Button } from "@chakra-ui/core";
-import promoImg from "./img/new_year_sale.jpg";
+import promoImg from "./img/IMG_2002.jpeg";
 
 export default function Promo({ title, img, url, butText }) {
   return (
@@ -9,7 +9,7 @@ export default function Promo({ title, img, url, butText }) {
         <Img src={promoImg} borderRadius="6px" />
         <Box p={4}>
           <Heading fontSize="lg">{title}</Heading>
-          <Box>У нас Новогодняя распродажа. Забирайте курсы за пол цены:)</Box>
+          <Box>Успейте ухватить по лучшей цене;)</Box>
           <Button
             as="a"
             target="_blank"
@@ -22,7 +22,7 @@ export default function Promo({ title, img, url, butText }) {
             colorScheme="pink"
             size="md"
           >
-            Каталог курсов
+            {butText}
           </Button>
         </Box>
       </Box>

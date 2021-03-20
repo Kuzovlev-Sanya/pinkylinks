@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.js": "./static/js/main.b0203786.chunk.js",
-    "main.js.map": "./static/js/main.b0203786.chunk.js.map",
+    "main.js": "./static/js/main.cc507552.chunk.js",
+    "main.js.map": "./static/js/main.cc507552.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.8f28b43c.js",
     "runtime-main.js.map": "./static/js/runtime-main.8f28b43c.js.map",
     "static/js/2.927d8170.chunk.js": "./static/js/2.927d8170.chunk.js",
     "static/js/2.927d8170.chunk.js.map": "./static/js/2.927d8170.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.c66f893a557274455b4b807532473c7e.js": "./precache-manifest.c66f893a557274455b4b807532473c7e.js",
+    "precache-manifest.56d48a7870f4e6c9e5a7c19c1bc12f53.js": "./precache-manifest.56d48a7870f4e6c9e5a7c19c1bc12f53.js",
     "service-worker.js": "./service-worker.js",
     "static/js/2.927d8170.chunk.js.LICENSE.txt": "./static/js/2.927d8170.chunk.js.LICENSE.txt",
-    "static/media/new_year_sale.jpg": "./static/media/new_year_sale.6b54fab7.jpg",
+    "static/media/IMG_2002.jpeg": "./static/media/IMG_2002.1d43ad42.jpeg",
     "static/media/pinkypink.png": "./static/media/pinkypink.93d50891.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8f28b43c.js",
     "static/js/2.927d8170.chunk.js",
-    "static/js/main.b0203786.chunk.js"
+    "static/js/main.cc507552.chunk.js"
   ]
 }
