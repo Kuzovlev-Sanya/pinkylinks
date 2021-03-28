@@ -9,7 +9,10 @@ export default function Promo({ title, img, url, butText }) {
         <Img src={promoImg} borderRadius="6px" />
         <Box p={4}>
           <Heading fontSize="lg">{title}</Heading>
-          <Box>Успейте ухватить по лучшей цене;)</Box>
+          <Box>
+            Новые необычные блокноты всегда вдохновляют на творчество! Давайте
+            создавать их еще и еще!
+          </Box>
           <Button
             as="a"
             target="_blank"

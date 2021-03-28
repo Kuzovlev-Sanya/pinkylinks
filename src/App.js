@@ -8,9 +8,9 @@ import Message from "./Message";
 import Promo from "./Promo";
 
 const promo = {
-  title: "Предзаказ курса «Скетчбук и светящийся шейкер»",
+  title: "Новый курс «Скетчбук и светящийся шейкер»",
   url: "https://pinkypink.ru/course/sketchbuk-i-svetyaschiiysya-sheiyker/",
-  butText: "Купить курс",
+  butText: "Купить",
 };
 
 const start = {
