@@ -10,8 +10,8 @@ export default function Promo({ title, img, url, butText }) {
         <Box p={4}>
           <Heading fontSize="lg">{title}</Heading>
           <Box>
-            Новые необычные блокноты всегда вдохновляют на творчество! Давайте
-            создавать их еще и еще!
+            Ох и засиделись мы с вами по домам! Пора снова творить вместе и
+            встречаться!
           </Box>
           <Button
             as="a"
