@@ -8,9 +8,10 @@ import Message from "./Message";
 import Promo from "./Promo";
 
 const promo = {
-  title: "Живой мастер-класс в студии 9 апреля",
-  url: "https://pinkypink.ru/zhivoiy-master-klass-v-studii-9-aprelya/",
-  butText: "Записаться",
+  title: "Макет коробочки-конверта для плоттера",
+  url:
+    "https://pinkypink.ru/besplatnyiy-maket-korobochki-konverta-dlya-plottera/",
+  butText: "Скачать",
 };
 
 const start = {
