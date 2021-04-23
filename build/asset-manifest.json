@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.js": "./static/js/main.5cedc3ac.chunk.js",
-    "main.js.map": "./static/js/main.5cedc3ac.chunk.js.map",
+    "main.js": "./static/js/main.26a0b2cc.chunk.js",
+    "main.js.map": "./static/js/main.26a0b2cc.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.8f28b43c.js",
     "runtime-main.js.map": "./static/js/runtime-main.8f28b43c.js.map",
     "static/js/2.927d8170.chunk.js": "./static/js/2.927d8170.chunk.js",
     "static/js/2.927d8170.chunk.js.map": "./static/js/2.927d8170.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.b92f6f64f48b114571079e7d8eba235a.js": "./precache-manifest.b92f6f64f48b114571079e7d8eba235a.js",
+    "precache-manifest.bb5943e28fb8360b1df8578a2ee2aa61.js": "./precache-manifest.bb5943e28fb8360b1df8578a2ee2aa61.js",
     "service-worker.js": "./service-worker.js",
     "static/js/2.927d8170.chunk.js.LICENSE.txt": "./static/js/2.927d8170.chunk.js.LICENSE.txt",
-    "static/media/maket.jpeg": "./static/media/maket.0e4a1ce7.jpeg",
+    "static/media/IMG_2002.jpeg": "./static/media/IMG_2002.1d43ad42.jpeg",
     "static/media/pinkypink.png": "./static/media/pinkypink.93d50891.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8f28b43c.js",
     "static/js/2.927d8170.chunk.js",
-    "static/js/main.5cedc3ac.chunk.js"
+    "static/js/main.26a0b2cc.chunk.js"
   ]
 }

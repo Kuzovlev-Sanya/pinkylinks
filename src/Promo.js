@@ -1,6 +1,6 @@
 import React from "react";
 import { Image, Box, Img, Link, Heading, Button } from "@chakra-ui/core";
-import promoImg from "./img/maket.jpeg";
+import promoImg from "./img/IMG_2002.jpeg";
 
 export default function Promo({ title, img, url, butText }) {
   return (
@@ -10,8 +10,8 @@ export default function Promo({ title, img, url, butText }) {
         <Box p={4}>
           <Heading fontSize="lg">{title}</Heading>
           <Box>
-            Коробочка-конверт для плоттера, которую можно вырезать из обрезков
-            от форзацев скетчбука.
+            Сезон живых мастер-классов открылся, пора снова творить вместе и
+            встречаться!
           </Box>
           <Button
             as="a"
