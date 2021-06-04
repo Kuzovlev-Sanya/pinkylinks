@@ -24,7 +24,7 @@ export default function Promo({ title, img, url, butText }) {
             colorScheme="pink"
             size="md"
           >
-            {butText}
+            {butText}&nbsp;<del>&nbsp;1999&nbsp;</del>&nbsp;999 руб.
           </Button>
         </Box>
       </Box>
