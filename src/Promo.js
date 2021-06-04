@@ -1,6 +1,6 @@
 import React from "react";
 import { Image, Box, Img, Link, Heading, Button } from "@chakra-ui/core";
-import promoImg from "./img/IMG_2002.jpeg";
+import promoImg from "./img/stories.jpeg";
 
 export default function Promo({ title, img, url, butText }) {
   return (
@@ -10,8 +10,7 @@ export default function Promo({ title, img, url, butText }) {
         <Box p={4}>
           <Heading fontSize="lg">{title}</Heading>
           <Box>
-            Сезон живых мастер-классов открылся, пора снова творить вместе и
-            встречаться!
+            В этом курсе все о моем подходе к съемке Историй в Instagram.
           </Box>
           <Button
             as="a"
