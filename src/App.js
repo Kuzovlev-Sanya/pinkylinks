@@ -10,7 +10,7 @@ import Promo from "./Promo";
 const promo = {
   title: "Снимаем Stories",
   url: "https://pinkypink.ru/course/snimaem-stories/",
-  butText: "Записаться",
+  butText: "Приобрести курс",
 };
 
 const start = {
