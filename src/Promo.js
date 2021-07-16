@@ -1,6 +1,6 @@
 import React from "react";
 import { Image, Box, Img, Link, Heading, Button } from "@chakra-ui/core";
-import promoImg from "./img/stories.jpeg";
+import promoImg from "./img/IMG_2498.jpeg";
 
 export default function Promo({ title, img, url, butText }) {
   return (
@@ -10,7 +10,7 @@ export default function Promo({ title, img, url, butText }) {
         <Box p={4}>
           <Heading fontSize="lg">{title}</Heading>
           <Box>
-            В этом курсе все о моем подходе к съемке Историй в Instagram.
+            Пошаговая видео инструкция и все шаблоны для создания обложки в виде кассеты.
           </Box>
           <Button
             as="a"

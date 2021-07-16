@@ -8,9 +8,9 @@ import Message from "./Message";
 import Promo from "./Promo";
 
 const promo = {
-  title: "Stories одной левой",
-  url: "https://pinkypink.ru/course/snimaem-stories/",
-  butText: "Приобрести курс за 1990 руб.",
+  title: "Блокнот-кассета",
+  url: "https://pinkypink.ru/course/bloknot-kasseta/",
+  butText: "Приобрести курс за 1490 руб.",
 };
 
 const start = {
