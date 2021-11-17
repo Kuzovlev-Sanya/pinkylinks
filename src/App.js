@@ -8,8 +8,8 @@ import Message from "./Message";
 import Promo from "./Promo";
 
 const promo = {
-  title: "Блокнот-кассета",
-  url: "https://pinkypink.ru/course/bloknot-kasseta/",
+  title: "Декабрьский Дневник 2021",
+  url: "https://pinkypink.ru/course/dekabrskiiy-dnevnik-2021/",
   butText: "Посмотреть курс",
 };
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { Image, Box, Img, Link, Heading, Button } from "@chakra-ui/core";
-import promoImg from "./img/IMG_2498.jpeg";
+import promoImg from "./img/presale_dd.jpg";
 
 export default function Promo({ title, img, url, butText }) {
   return (
@@ -10,9 +10,9 @@ export default function Promo({ title, img, url, butText }) {
         <Box p={4}>
           <Heading fontSize="lg">{title}</Heading>
           <Box>
-            Этот блокнот многих из нас возвращает мыслями в детство. Сразу
-            хочется взять карандаш, перемотать на начало и еще раз поставить
-            любимый заслушанный до дыр альбом.
+            В этом году многое препятствовало волшебству в декабре, но желание
+            поскорее почувствовать праздник гораздо сильнее обстоятельств!
+            Декабрьский Дневник будет!
           </Box>
           <Button
             as="a"
