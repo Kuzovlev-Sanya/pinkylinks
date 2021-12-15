@@ -1,6 +1,6 @@
 import React from "react";
 import { Image, Box, Img, Link, Heading, Button } from "@chakra-ui/core";
-import promoImg from "./img/presale_dd.jpg";
+import promoImg from "./img/IMG_3247.jpg";
 
 export default function Promo({ title, img, url, butText }) {
   return (
@@ -10,9 +10,9 @@ export default function Promo({ title, img, url, butText }) {
         <Box p={4}>
           <Heading fontSize="lg">{title}</Heading>
           <Box>
-            В этом году многое препятствовало волшебству в декабре, но желание
-            поскорее почувствовать праздник гораздо сильнее обстоятельств!
-            Декабрьский Дневник будет!
+            Приглашаем посмотреть результаты нашего уютного конкурса! Уже по
+            традиции мы проводим радостную выставку Декабрьских Дневников, от
+            просмотра которых словно новые крылья растет вдохновение!
           </Box>
           <Button
             as="a"
