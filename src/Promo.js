@@ -1,6 +1,6 @@
 import React from "react";
 import { Image, Box, Img, Link, Heading, Button } from "@chakra-ui/core";
-import promoImg from "./img/IMG_3247.jpg";
+import promoImg from "./img/ny_discount_2021_slider.jpeg";
 
 export default function Promo({ title, img, url, butText }) {
   return (
@@ -9,11 +9,7 @@ export default function Promo({ title, img, url, butText }) {
         <Img src={promoImg} borderRadius="6px" />
         <Box p={4}>
           <Heading fontSize="lg">{title}</Heading>
-          <Box>
-            Приглашаем посмотреть результаты нашего уютного конкурса! Уже по
-            традиции мы проводим радостную выставку Декабрьских Дневников, от
-            просмотра которых словно новые крылья растет вдохновение!
-          </Box>
+          <Box></Box>
           <Button
             as="a"
             target="_blank"

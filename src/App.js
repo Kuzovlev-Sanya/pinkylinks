@@ -8,9 +8,9 @@ import Message from "./Message";
 import Promo from "./Promo";
 
 const promo = {
-  title: "Конкурс Декабрьский Дневник 2021",
+  title: "",
   url: "https://pinkypink.ru/golosovanie-dekabrskiiy-dnevnik-2021/",
-  butText: "Посмотреть результаты",
+  butText: "Новогоднии скидки тут",
 };
 
 const start = {
