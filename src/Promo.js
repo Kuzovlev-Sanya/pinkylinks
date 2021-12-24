@@ -9,7 +9,10 @@ export default function Promo({ title, img, url, butText }) {
         <Img src={promoImg} borderRadius="6px" />
         <Box p={4}>
           <Heading fontSize="lg">{title}</Heading>
-          <Box></Box>
+          <Box>
+            Введите код HELLO2022 и получите скидку 50%! До 30 декабря
+            включительно.
+          </Box>
           <Button
             as="a"
             target="_blank"
