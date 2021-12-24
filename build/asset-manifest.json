@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "./static/js/main.5d66e298.chunk.js",
-    "main.js.map": "./static/js/main.5d66e298.chunk.js.map",
+    "main.js": "./static/js/main.cc9c95be.chunk.js",
+    "main.js.map": "./static/js/main.cc9c95be.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.8f28b43c.js",
     "runtime-main.js.map": "./static/js/runtime-main.8f28b43c.js.map",
     "static/js/2.927d8170.chunk.js": "./static/js/2.927d8170.chunk.js",
     "static/js/2.927d8170.chunk.js.map": "./static/js/2.927d8170.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.ce69fe7dd8f4119acf33474e5da9505d.js": "./precache-manifest.ce69fe7dd8f4119acf33474e5da9505d.js",
+    "precache-manifest.3bb28754b6e393313c1721ecae69d469.js": "./precache-manifest.3bb28754b6e393313c1721ecae69d469.js",
     "service-worker.js": "./service-worker.js",
     "static/js/2.927d8170.chunk.js.LICENSE.txt": "./static/js/2.927d8170.chunk.js.LICENSE.txt",
     "static/media/ny_discount_2021_slider.jpeg": "./static/media/ny_discount_2021_slider.2fa510f6.jpeg",
@@ -16,6 +16,6 @@
   "entrypoints": [
     "static/js/runtime-main.8f28b43c.js",
     "static/js/2.927d8170.chunk.js",
-    "static/js/main.5d66e298.chunk.js"
+    "static/js/main.cc9c95be.chunk.js"
   ]
 }

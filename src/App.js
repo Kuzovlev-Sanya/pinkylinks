@@ -9,7 +9,7 @@ import Promo from "./Promo";
 
 const promo = {
   title: "",
-  url: "https://pinkypink.ru/golosovanie-dekabrskiiy-dnevnik-2021/",
+  url: "https://pinkypink.ru/course/",
   butText: "Новогоднии скидки тут",
 };
 
