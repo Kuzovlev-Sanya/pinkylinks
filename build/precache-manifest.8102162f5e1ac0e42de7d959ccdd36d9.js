@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "44814fad0e5c5b676e92a2f26651f3cd",
+    "revision": "28ecce95f7d3bbf3b6e0a50a7207e46d",
     "url": "./index.html"
   },
   {
@@ -12,16 +12,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.927d8170.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b8ed44241253931a8621",
-    "url": "./static/js/main.cc9c95be.chunk.js"
+    "revision": "70ecd6eb5037a7bf0b85",
+    "url": "./static/js/main.89f8a026.chunk.js"
   },
   {
     "revision": "03575165036da8444cf4",
     "url": "./static/js/runtime-main.8f28b43c.js"
   },
   {
-    "revision": "2fa510f60f9885cfb34a32b39b95c02d",
-    "url": "./static/media/ny_discount_2021_slider.2fa510f6.jpeg"
+    "revision": "6626bce17a929f2abd530332b0016b45",
+    "url": "./static/media/IMG_2498.6626bce1.jpeg"
   },
   {
     "revision": "93d5089111ea18a3f5619b308dcd2e7e",

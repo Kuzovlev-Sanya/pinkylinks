@@ -1,6 +1,6 @@
 import React from "react";
 import { Image, Box, Img, Link, Heading, Button } from "@chakra-ui/core";
-import promoImg from "./img/ny_discount_2021_slider.jpeg";
+import promoImg from "./img/IMG_2498.jpeg";
 
 export default function Promo({ title, img, url, butText }) {
   return (
@@ -10,8 +10,8 @@ export default function Promo({ title, img, url, butText }) {
         <Box p={4}>
           <Heading fontSize="lg">{title}</Heading>
           <Box>
-            Введите код HELLO2022 и получите скидку 50%! До 30 декабря
-            включительно.
+            Здесь вы найдете пошаговую видео инструкцию и все шаблоны для
+            создания обложки в виде кассеты.
           </Box>
           <Button
             as="a"
