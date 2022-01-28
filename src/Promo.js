@@ -1,6 +1,6 @@
 import React from "react";
 import { Image, Box, Img, Link, Heading, Button } from "@chakra-ui/core";
-import promoImg from "./img/IMG_2498.jpeg";
+import promoImg from "./img/IMG_3465-650x650.jpeg";
 
 export default function Promo({ title, img, url, butText }) {
   return (
@@ -10,8 +10,10 @@ export default function Promo({ title, img, url, butText }) {
         <Box p={4}>
           <Heading fontSize="lg">{title}</Heading>
           <Box>
-            Здесь вы найдете пошаговую видео инструкцию и все шаблоны для
-            создания обложки в виде кассеты.
+            В этом курсе показан полный процесс изготовления более сложной и
+            нарядной версии светильника. Стороны светильника обтянуты
+            переплетным кожзаменителем, а часть с бумажным принтом надежно
+            защищена пластиковым окошком с шуршащими стразами внутри.
           </Box>
           <Button
             as="a"

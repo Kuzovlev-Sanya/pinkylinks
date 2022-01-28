@@ -8,8 +8,8 @@ import Message from "./Message";
 import Promo from "./Promo";
 
 const promo = {
-  title: "Блокнот-кассета",
-  url: "https://pinkypink.ru/course/bloknot-kasseta/",
+  title: "Предзаказ. Шуршуня – PRO версия звездочки-светильника",
+  url: "https://pinkypink.ru/course/predzakaz-shurshunya-pro-versiya-zvezdochki-svetilnika/",
   butText: "Приобрести курс",
 };
 
