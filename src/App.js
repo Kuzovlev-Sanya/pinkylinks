@@ -40,6 +40,23 @@ export default function App() {
       <Box w="100%" p={3} pb={6}>
         <Header />
         <Cart {...start} />
+        <Box>
+          <Text px="0" fontSize="xs" px={5}>
+            Наборы к курсам смотрите{" "}
+            <Link
+              color="pink.900"
+              borderColor="pink.400"
+              _hover={{
+                textDecoration: "none",
+                color: "blue.700",
+                borderColor: "blue.500",
+              }}
+              href="https://instagram.com/happysets_boutique"
+            >
+              в Бутике HappySets
+            </Link>
+          </Text>
+        </Box>
         <Promo {...promo} />
 
         <Cart {...courses} />
