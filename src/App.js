@@ -8,8 +8,8 @@ import Message from "./Message";
 import Promo from "./Promo";
 
 const promo = {
-  title: "Предзаказ. Шуршуня – PRO версия звездочки-светильника",
-  url: "https://pinkypink.ru/course/predzakaz-shurshunya-pro-versiya-zvezdochki-svetilnika/",
+  title: "Светильник-телевизор, предзаказ",
+  url: "https://pinkypink.ru/course/retrotv/",
   butText: "Приобрести курс",
 };
 

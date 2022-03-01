@@ -1,6 +1,6 @@
 import React from "react";
 import { Image, Box, Img, Link, Heading, Button } from "@chakra-ui/core";
-import promoImg from "./img/IMG_3465-650x650.jpeg";
+import promoImg from "./img/IMG_3582.jpeg";
 
 export default function Promo({ title, img, url, butText }) {
   return (
@@ -10,10 +10,10 @@ export default function Promo({ title, img, url, butText }) {
         <Box p={4}>
           <Heading fontSize="lg">{title}</Heading>
           <Box>
-            В этом курсе показан полный процесс изготовления более сложной и
-            нарядной версии светильника. Стороны светильника обтянуты
-            переплетным кожзаменителем, а часть с бумажным принтом надежно
-            защищена пластиковым окошком с шуршащими стразами внутри.
+            Готовится самый джазовый видеокурс на нашем сайте! Здесь мы создадим
+            светильник-фоторамку в виде ретро телевизора. На экране может быть
+            любое ваше любимое фото, хранящее теплые воспоминания. В этом курсе
+            показан полный процесс изготовления такого светильника.
           </Box>
           <Button
             as="a"
