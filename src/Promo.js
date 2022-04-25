@@ -1,6 +1,6 @@
 import React from "react";
 import { Image, Box, Img, Link, Heading, Button } from "@chakra-ui/core";
-import promoImg from "./img/IMG_3582.jpeg";
+import promoImg from "./img/casset.jpeg";
 
 export default function Promo({ title, img, url, butText }) {
   return (
@@ -10,10 +10,8 @@ export default function Promo({ title, img, url, butText }) {
         <Box p={4}>
           <Heading fontSize="lg">{title}</Heading>
           <Box>
-            Готовится самый джазовый видеокурс на нашем сайте! Здесь мы создадим
-            светильник-фоторамку в виде ретро телевизора. На экране может быть
-            любое ваше любимое фото, хранящее теплые воспоминания. В этом курсе
-            показан полный процесс изготовления такого светильника.
+            Ждали возможности заказать блокнот-кассету? Тогда проходите,
+            наливайте себе чай повкуснее и выбирайте :)
           </Box>
           <Button
             as="a"

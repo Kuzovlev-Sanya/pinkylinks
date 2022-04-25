@@ -8,8 +8,8 @@ import Message from "./Message";
 import Promo from "./Promo";
 
 const promo = {
-  title: "Светильник-телевизор, предзаказ",
-  url: "https://pinkypink.ru/course/retrotv/",
+  title: "Кассета к лету!",
+  url: "https://pinkypink.ru/kasseta-k-letu/",
   butText: "Приобрести курс",
 };
 
