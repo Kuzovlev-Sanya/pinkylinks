@@ -10,7 +10,7 @@ import Promo from "./Promo";
 const promo = {
   title: "Кассета к лету!",
   url: "https://pinkypink.ru/kasseta-k-letu/",
-  butText: "Приобрести курс",
+  butText: "Заказать блокнот",
 };
 
 const start = {
