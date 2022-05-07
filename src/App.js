@@ -8,9 +8,9 @@ import Message from "./Message";
 import Promo from "./Promo";
 
 const promo = {
-  title: "Кассета к лету!",
-  url: "https://pinkypink.ru/kasseta-k-letu/",
-  butText: "Заказать блокнот",
+  title: "Блокнот-кассета",
+  url: "https://pinkypink.ru/course/bloknot-kasseta/",
+  butText: "Приобрести курс",
 };
 
 const start = {

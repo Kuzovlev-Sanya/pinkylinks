@@ -1,6 +1,6 @@
 import React from "react";
 import { Image, Box, Img, Link, Heading, Button } from "@chakra-ui/core";
-import promoImg from "./img/casset.jpeg";
+import promoImg from "./img/IMG_2498.jpeg";
 
 export default function Promo({ title, img, url, butText }) {
   return (
