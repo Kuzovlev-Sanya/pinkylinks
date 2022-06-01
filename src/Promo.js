@@ -1,6 +1,6 @@
 import React from "react";
 import { Image, Box, Img, Link, Heading, Button } from "@chakra-ui/core";
-import promoImg from "./img/IMG_2498.jpeg";
+import promoImg from "./img/IMG_3970.jpeg";
 
 export default function Promo({ title, img, url, butText }) {
   return (
@@ -10,8 +10,9 @@ export default function Promo({ title, img, url, butText }) {
         <Box p={4}>
           <Heading fontSize="lg">{title}</Heading>
           <Box>
-            Здесь вы найдете пошаговую видео инструкцию и все шаблоны для
-            создания обложки в виде кассеты.
+            Предзаказ нового видеокурса, который будет доступен 15 июня. А
+            сейчас по традиции у нас есть 100 мест с огромной скидкой и надежда,
+            что все желающие успеют!
           </Box>
           <Button
             as="a"
