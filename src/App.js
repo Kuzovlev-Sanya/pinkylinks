@@ -8,9 +8,9 @@ import Message from "./Message";
 import Promo from "./Promo";
 
 const promo = {
-  title: "Блокнот со светящимся карамельным сердцем",
-  url: "https://pinkypink.ru/course/candy_heart_notebook/",
-  butText: "Приобрести курс",
+  title: "Обложка для документов",
+  url: "https://pinkypink.ru/course/oblozhka-dlya-dokumentov/",
+  butText: "Приобрести со скидкой",
 };
 
 const start = {

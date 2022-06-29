@@ -1,6 +1,6 @@
 import React from "react";
 import { Image, Box, Img, Link, Heading, Button } from "@chakra-ui/core";
-import promoImg from "./img/IMG_3970.jpeg";
+import promoImg from "./img/IMG_4071.jpeg";
 
 export default function Promo({ title, img, url, butText }) {
   return (
@@ -10,9 +10,8 @@ export default function Promo({ title, img, url, butText }) {
         <Box p={4}>
           <Heading fontSize="lg">{title}</Heading>
           <Box>
-            Предзаказ нового видеокурса, который будет доступен 15 июня. А
-            сейчас по традиции у нас есть 100 мест с огромной скидкой и надежда,
-            что все желающие успеют!
+            Лаконичная и вместительная обложка для документов создается
+            невероятно легко и быстро!
           </Box>
           <Button
             as="a"
