@@ -8,8 +8,8 @@ import Message from "./Message";
 import Promo from "./Promo";
 
 const promo = {
-  title: "Обложка для документов",
-  url: "https://pinkypink.ru/course/oblozhka-dlya-dokumentov/",
+  title: "Папка-конверт для документов",
+  url: "https://pinkypink.ru/course/folder-envelope/",
   butText: "Приобрести со скидкой",
 };
 
@@ -23,7 +23,7 @@ const start = {
 };
 const courses = {
   title: "Онлайн курсы",
-  text: "Сейчас в каталоге 15 бесплатных и 19 платных курсов на разные темы и разного уровня сложности.",
+  text: "Сейчас в каталоге 16 бесплатных и 28 платных курсов на разные темы и разного уровня сложности.",
   butText: "Открыть каталог",
   butUrl: "https://pinkypink.ru/course/",
 };
