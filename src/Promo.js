@@ -10,7 +10,7 @@ export default function Promo({ title, img, url, butText }) {
         <Box p={4}>
           <Heading fontSize="lg">{title}</Heading>
           <Box>
-            Акция проходит с 1 по 3 августа включительно. Учавствуют все курсы и
+            Акция проходит с 1 по 3 августа включительно. Участвуют все курсы и
             цифровые товары.
           </Box>
           <Button
