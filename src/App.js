@@ -8,9 +8,9 @@ import Message from "./Message";
 import Promo from "./Promo";
 
 const promo = {
-  title: "Папка-конверт для документов",
-  url: "https://pinkypink.ru/course/folder-envelope/",
-  butText: "Приобрести со скидкой",
+  title: "Скидка на Всё -50%",
+  url: "https://pinkypink.ru/course/",
+  butText: "Заглянуть",
 };
 
 const start = {
