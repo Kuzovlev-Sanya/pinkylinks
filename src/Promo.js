@@ -1,6 +1,6 @@
 import React from "react";
 import { Image, Box, Img, Link, Heading, Button } from "@chakra-ui/core";
-import promoImg from "./img/IMG_4103.jpeg";
+import promoImg from "./img/IMG_4122_insta-650x650.jpeg";
 
 export default function Promo({ title, img, url, butText }) {
   return (
@@ -10,8 +10,8 @@ export default function Promo({ title, img, url, butText }) {
         <Box p={4}>
           <Heading fontSize="lg">{title}</Heading>
           <Box>
-            Акция проходит с 1 по 3 августа включительно. Участвуют все курсы и
-            цифровые товары.
+            Стильный и удобный аксессуар в путешествие? Или на работу. С такой
+            папкой удобно где угодно, я проверила :)
           </Box>
           <Button
             as="a"
