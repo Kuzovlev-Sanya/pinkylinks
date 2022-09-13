@@ -8,8 +8,8 @@ import Message from "./Message";
 import Promo from "./Promo";
 
 const promo = {
-  title: "Папка-конверт для документов",
-  url: "https://pinkypink.ru/course/folder-envelope/",
+  title: "Карамельное сердце",
+  url: "https://pinkypink.ru/course/candy_heart_notebook/",
   butText: "Приобрести курс",
 };
 

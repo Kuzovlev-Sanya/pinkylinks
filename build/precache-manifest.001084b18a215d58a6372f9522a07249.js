@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "473a1c8cb9c656f8ff6ae189b1cefb4f",
+    "revision": "6cd5980883ad18a883fd8bfdecfde7c2",
     "url": "./index.html"
   },
   {
@@ -12,16 +12,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.927d8170.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "78407ef680637d4c45bd",
-    "url": "./static/js/main.1b223fa7.chunk.js"
+    "revision": "342c9af11129ed39f7b5",
+    "url": "./static/js/main.711740dd.chunk.js"
   },
   {
     "revision": "03575165036da8444cf4",
     "url": "./static/js/runtime-main.8f28b43c.js"
   },
   {
-    "revision": "5c1438b6055c5b060dc06ce0610d5ac9",
-    "url": "./static/media/IMG_4122_insta-650x650.5c1438b6.jpeg"
+    "revision": "4658d7cc8de09f66f978267fd40ecbde",
+    "url": "./static/media/heart_caramel.4658d7cc.jpg"
   },
   {
     "revision": "93d5089111ea18a3f5619b308dcd2e7e",
