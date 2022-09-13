@@ -1,6 +1,6 @@
 import React from "react";
 import { Image, Box, Img, Link, Heading, Button } from "@chakra-ui/core";
-import promoImg from "./img/heart_caramel.jpg";
+import promoImg from "./img/IMG_4190.jpeg";
 
 export default function Promo({ title, img, url, butText }) {
   return (
@@ -10,8 +10,8 @@ export default function Promo({ title, img, url, butText }) {
         <Box p={4}>
           <Heading fontSize="lg">{title}</Heading>
           <Box>
-            Уютный, притягивающий и немного магический дизайн обложки этого
-            блокнота завоевал и мое тоже порою карамельное сердце!
+            Любимый способ хранения фотографий, приправленный магией лунного
+            света, ждет вас на этом курсе!
           </Box>
           <Button
             as="a"
