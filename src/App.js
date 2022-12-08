@@ -8,8 +8,8 @@ import Message from "./Message";
 import Promo from "./Promo";
 
 const promo = {
-  title: "Фотоальбом со светящейся луной на обложке",
-  url: "https://pinkypink.ru/course/fotoalbom-so-svetyascheiysya-lunoiy-na-oblozhke/",
+  title: "Сумка с объемными буквами",
+  url: "https://pinkypink.ru/course/bag/",
   butText: "Приобрести курс",
 };
 
