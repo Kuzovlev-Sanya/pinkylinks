@@ -9,9 +9,7 @@ export default function Promo({ title, img, url, butText }) {
         <Img src={promoImg} borderRadius="6px" />
         <Box p={4}>
           <Heading fontSize="lg">{title}</Heading>
-          <Box>
-            Сумочка из привычных нам материалов? Да-да-да! Старт 10 декабря!
-          </Box>
+          <Box>Сумочка из привычных нам материалов? Да-да-да!</Box>
           <Button
             as="a"
             target="_blank"
