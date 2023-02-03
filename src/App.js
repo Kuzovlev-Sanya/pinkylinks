@@ -21,6 +21,12 @@ const start = {
   butUrl:
     "https://pinkypink.ru/course/komplekt-materialov-i-videokurs-po-oblozhke-na-pasport/",
 };
+const subscription = {
+  title: "Хочу скидку!",
+  text: "Все заманчивые предложения мы присылаем по почте.",
+  butText: "Подписаться",
+  butUrl: "https://pinkypink.ru/subscription/",
+};
 const courses = {
   title: "Онлайн курсы",
   text: "Сейчас в каталоге 16 бесплатных и 28 платных курсов на разные темы и разного уровня сложности.",
@@ -40,6 +46,7 @@ export default function App() {
       <Box w="100%" p={3} pb={6}>
         <Header />
         <Cart {...start} />
+        <Cart {...subscription} />
         <Box>
           <Text px="0" fontSize="xs" px={5}>
             Наборы к курсам смотрите{" "}
