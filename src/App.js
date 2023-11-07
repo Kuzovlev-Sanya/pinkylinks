@@ -8,9 +8,9 @@ import Message from "./Message";
 import Promo from "./Promo";
 
 const promo = {
-  title: "Сумка с объемными буквами",
-  url: "https://pinkypink.ru/course/bag/",
-  butText: "Приобрести курс",
+  title: "Декабрьский Дневник 2023",
+  url: "https://pinkypink.ru/course/dd2023/",
+  butText: "Оформить предзаказ",
 };
 
 const start = {
