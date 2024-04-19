@@ -8,8 +8,8 @@ import Message from "./Message";
 import Promo from "./Promo";
 
 const promo = {
-  title: "Декабрьский Дневник 2023",
-  url: "https://pinkypink.ru/course/dd2023/",
+  title: "Мидори, творческий блокнот",
+  url: "https://pinkypink.ru/course/midori/",
   butText: "Оформить предзаказ",
 };
 
