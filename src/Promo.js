@@ -1,6 +1,6 @@
 import React from "react";
 import { Image, Box, Img, Link, Heading, Button } from "@chakra-ui/core";
-import promoImg from "./img/IMG_7909-650x650.jpg";
+import promoImg from "./img/IMG_8850.jpg";
 
 export default function Promo({ title, img, url, butText }) {
   return (
@@ -10,8 +10,8 @@ export default function Promo({ title, img, url, butText }) {
         <Box p={4}>
           <Heading fontSize="lg">{title}</Heading>
           <Box>
-            Не пора ли обновить обложку для идей? Пусть у каждого творца и
-            путешественника будет свой блокнот мидори!
+            Удобный, вместительный и легкий в сборке благодаря точной
+            продуманной технологии ⭐️
           </Box>
           <Button
             as="a"
