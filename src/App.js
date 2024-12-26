@@ -8,8 +8,8 @@ import Message from "./Message";
 import Promo from "./Promo";
 
 const promo = {
-  title: "Кошелек на молнии",
-  url: "https://pinkypink.ru/course/zipped_wallet/",
+  title: "Ключница на кнопке",
+  url: "https://pinkypink.ru/course/key_keeper/",
   butText: "Оформить предзаказ",
 };
 
