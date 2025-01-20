@@ -10,7 +10,7 @@ import Promo from "./Promo";
 const promo = {
   title: "Ключница на кнопке",
   url: "https://pinkypink.ru/course/key_keeper/",
-  butText: "Оформить предзаказ",
+  butText: "Купить",
 };
 
 const start = {
